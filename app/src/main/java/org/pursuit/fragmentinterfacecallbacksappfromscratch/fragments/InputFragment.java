@@ -21,7 +21,6 @@ public class InputFragment extends Fragment {
     private EditText editText1;
     private EditText editText2;
     private EditText editText3;
-
     private Button button;
 
 
@@ -46,12 +45,6 @@ public class InputFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_input, container, false);
     }
 
-//    public void onButtonPressed(Uri uri) {
-//        if (fragmentInterface != null) {
-//            fragmentInterface.onFragmentInteraction(uri);
-//        }
-//    }
-
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -70,7 +63,6 @@ public class InputFragment extends Fragment {
                 fragmentInterface.onFragmentInteraction(text1, text2, text3);
             }
         });
-
     }
 
     @Override

@@ -19,7 +19,6 @@ public class DisplayFragment extends Fragment {
     private static final String TEXT2_KEY = "text2";
     private static final String TEXT3_KEY = "text3";
 
-    // TODO: Rename and change types of parameters
     private String text1;
     private String text2;
     private String text3;
@@ -70,8 +69,6 @@ public class DisplayFragment extends Fragment {
         //OR do below with concatenating the strings
         //String conctenatedTexts = text1 + text2 + text3;
         //displayTextView.setText(conctenatedTexts);
-
-
     }
 
     @Override
@@ -90,5 +87,4 @@ public class DisplayFragment extends Fragment {
         super.onDetach();
         fragmentInterface = null;
     }
-
 }
