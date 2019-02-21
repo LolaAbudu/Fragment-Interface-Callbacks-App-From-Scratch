@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fragment Interface Callbacks App From Scratch</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Enter_here">Enter Here</string>
+    <string name="display_string">%1$s %2$s %3$s</string>
+    ////string resource with a placeholder for strings (in String xml) that're being passed out. %1$s (first place holder), %2$s (second place holder), etc.
+
+</resources>
