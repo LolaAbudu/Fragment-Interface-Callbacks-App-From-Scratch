@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.InputFragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
 
     <!-- TODO: Update blank fragment layout -->
     <EditText
@@ -12,26 +13,30 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/Enter_here"
-        android:background="@color/colorPrimary"/>
+        android:background="#5ad631"
+        android:layout_marginBottom="10dp" />
 
     <EditText
         android:id="@+id/input_edit_text2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/Enter_here"
-        android:background="@color/colorAccent"/>
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="10dp"/>
 
     <EditText
         android:id="@+id/input_edit_text3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#aabedd"
-        android:hint="@string/Enter_here" />
+        android:hint="@string/Enter_here"
+        android:layout_marginBottom="24dp"/>
 
     <Button
         android:id="@+id/input_button"
         android:layout_width="wrap_content"
         android:layout_height="64dp"
-        android:text="Click Me!" />
+        android:text="Click Me!"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
